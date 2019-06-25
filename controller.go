@@ -37,7 +37,7 @@ func (wc workerController) Show(context *admin.Context) {
 }
 
 func (wc workerController) New(context *admin.Context) {
-	context.Execute("workers/new", wc.Worker)
+	context.Execute("new", wc.Worker)
 }
 
 func (wc workerController) Update(context *admin.Context) {
