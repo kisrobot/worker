@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/jinzhu/gorm"
-	"github.com/qor/admin"
-	"github.com/qor/audited"
-	"github.com/qor/serializable_meta"
+	"github.com/kisrobot/admin"
+	"github.com/kisrobot/audited"
+	"github.com/kisrobot/serializable_meta"
 )
 
 // QorJobInterface is a interface, defined methods that needs for a qor job

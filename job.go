@@ -1,9 +1,9 @@
 package worker
 
 import (
-	"github.com/qor/admin"
-	"github.com/qor/qor"
-	"github.com/qor/roles"
+	"github.com/kisrobot/admin"
+	"github.com/kisrobot/qor"
+	"github.com/kisrobot/roles"
 )
 
 // Job is a struct that hold Qor Job definations
